@@ -1,0 +1,25 @@
+.navbar{
+  width: 98%;
+  border-bottom: 2px solid rgb(231, 230, 230);
+}
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li a{
+  border-bottom: 2px solid transparent;
+  padding-bottom:5px ;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.navbar ul li a:hover {
+  border-bottom: #007bff solid 2px;
+  transition: all 0.3s ease-in-out;
+}
+.navbar ul li a{
+  color: #024185;
+  font-weight: 600;
+}
+.navbar .active{
+  border-bottom:#007bff solid  2px ;
+}

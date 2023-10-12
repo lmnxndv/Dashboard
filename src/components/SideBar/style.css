@@ -1,0 +1,41 @@
+.sideBar ul li a{
+  padding: 0 14px 0 18px;
+  transition: all 0.3s ease-in-out;
+  border-left: 2px solid transparent;
+}
+.sideBar ul li a:hover {
+  border-left: #007bff solid 2px;
+  transition: all 0.3s ease-in-out;
+}
+.sideBar .sideBar-header .active {
+  border-left: #007bff solid 2px;
+  color: #024185;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.logo i {
+  margin-right: 5px;
+  font-size: 35px;
+  background-image: linear-gradient(to top, #ff9900, #007bff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.profile-drop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+}
+.profile-drop img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 5px;
+}
